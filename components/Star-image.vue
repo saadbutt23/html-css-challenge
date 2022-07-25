@@ -1,19 +1,22 @@
 <template>
-  <img src="../assets/images/icon-star.svg" alt="star" loading="lazy">
+  <img
+    class="star-image"
+    src="../assets/images/icon-star.svg"
+    alt="star"
+  >
 </template>
 
 <script>
 
 </script>
 
-<style lang="scss">
-img {
-  position: relative;
-  top: -1.4rem;
-  left: -2.9rem;
+<style
+  lang="scss"
+  scoped
+>
+.star-image {
   background-color: hsl(213, 19%, 18%);
-  width: 1.5rem;
+  width: 1.2rem;
   height: auto;
 }
-
 </style>
